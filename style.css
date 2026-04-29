@@ -1,0 +1,60 @@
+/* BODY */
+body {
+    background-color: #f8f9fa;
+}
+
+/* SEARCH ICON */
+.search-icon {
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: gray;
+    font-size: 14px;
+}
+
+/* HERO */
+.hero-section {
+    height: 60vh;
+    background: url("https://images.unsplash.com/photo-1504674900247-0877df9cc836") center/cover no-repeat;
+    position: relative;
+}
+
+/* DARK OVERLAY */
+.hero-section::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+/* TEXT ABOVE */
+.hero-section .container {
+    position: relative;
+    z-index: 1;
+}
+
+/* EQUAL CARD FIX */
+.card {
+    height: 100%;
+    border-radius: 12px;
+}
+
+/* FIX IMAGE SIZE */
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+/* FLEX FOR ALIGNMENT */
+.card-body {
+    display: flex;
+    flex-direction: column;
+}
+
+/* HOVER EFFECT */
+.card:hover {
+    transform: translateY(-5px);
+    transition: 0.3s ease;
+}

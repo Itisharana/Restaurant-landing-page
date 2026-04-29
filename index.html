@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Foodies Hub</title>
+
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light shadow-sm">
+  <div class="container">
+
+    <a class="navbar-brand fw-bold text-danger" href="#">FoodiesHub</a>
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarContent">
+
+      <!-- SEARCH -->
+      <form class="d-flex mx-auto w-50 position-relative">
+        <input class="form-control rounded-pill pe-5" type="search" placeholder="Search dishes...">
+        <span class="search-icon">🔍</span>
+      </form>
+
+      <!-- RIGHT -->
+      <ul class="navbar-nav ms-auto align-items-center">
+        <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Menu</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+
+        <li class="nav-item ms-2">
+          <button class="btn btn-outline-danger btn-sm">Reserve</button>
+        </li>
+
+        <li class="nav-item ms-2">
+          <button class="btn btn-danger btn-sm rounded-pill">Order</button>
+        </li>
+      </ul>
+
+    </div>
+  </div>
+</nav>
+
+
+<!-- HERO -->
+<section class="hero-section text-center text-white d-flex align-items-center">
+  <div class="container">
+    <h1 class="fw-bold display-5">Delicious Food, Delivered Fresh</h1>
+    <p class="lead">Experience the taste of happiness</p>
+    <button class="btn btn-danger rounded-pill px-4">Explore Menu</button>
+  </div>
+</section>
+
+
+<!-- MENU -->
+<section class="container py-5">
+  <h2 class="text-center mb-4">Popular Dishes</h2>
+
+  <div class="row g-4 align-items-stretch">
+
+    <!-- CARD 1 -->
+    <div class="col-md-4">
+      <div class="card border-0 shadow-sm h-100">
+        <img src="https://images.unsplash.com/photo-1600891964599-f61ba0e24092" class="card-img-top" alt="">
+        <div class="card-body text-center">
+          <h5 class="fw-bold">Cheese Burger</h5>
+          <p class="text-muted small">Juicy grilled burger with cheese</p>
+          <button class="btn btn-danger btn-sm rounded-pill mt-auto">Order Now</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- CARD 2 -->
+    <div class="col-md-4">
+      <div class="card border-0 shadow-sm h-100">
+        <img src="https://images.unsplash.com/photo-1540189549336-e6e99c3679fe" class="card-img-top" alt="">
+        <div class="card-body text-center">
+          <h5 class="fw-bold">Italian Pizza</h5>
+          <p class="text-muted small">Wood-fired authentic pizza</p>
+          <button class="btn btn-danger btn-sm rounded-pill mt-auto">Order Now</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- CARD 3 -->
+    <div class="col-md-4">
+      <div class="card border-0 shadow-sm h-100">
+        <img src="https://images.unsplash.com/photo-1555939594-58d7cb561ad1" class="card-img-top" alt="">
+        <div class="card-body text-center">
+          <h5 class="fw-bold">Pasta</h5>
+          <p class="text-muted small">Creamy and delicious pasta</p>
+          <button class="btn btn-danger btn-sm rounded-pill mt-auto">Order Now</button>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+<!-- FOOTER -->
+<footer class="text-center py-3 bg-light">
+  <p class="mb-0 small">© 2026 FoodiesHub. All rights reserved.</p>
+</footer>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
